@@ -50,16 +50,15 @@ return false;
 emailError.innerHTML = "valid";
 return true;
 }
-
-// function validateMessage(){
-// var message = document.getElementById('contact-message').value;
-// var required = 30;
-// var left  = required-message.length;
-// if(left>0)
-// messageError.innerHTML = left + 'more characters required';
-// }
-// messageError.innerHTML = "valid";
-// return true;
+function validateMessage(){
+   var message = document.getElementById('contact-message').value;
+var required = 30;
+var left  = required-message.length;
+if(left>0)
+messageError.innerHTML = left + 'more characters required';
+messageError.innerHTML = "valid";
+return true;
+}
 
 
 
